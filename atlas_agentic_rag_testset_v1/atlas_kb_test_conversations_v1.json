@@ -1,0 +1,202 @@
+[
+  {
+    "id": "C001",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Starter 套餐能连几个 MCP？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "Starter 套餐当前最多可连接 2 个 MCP Server。"
+      },
+      {
+        "role": "user",
+        "content": "那旧资料里为什么有人说只有 1 个？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "因为旧销售资料中的规则已经失效。自 2026-02-01 起，Starter 套餐的 MCP 上限由 1 个提升到了 2 个。"
+      }
+    ],
+    "supporting_sections": [
+      "2.1 Starter",
+      "2.4 计费补充规则",
+      "14.4 历史版本说明"
+    ]
+  },
+  {
+    "id": "C002",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Viewer 可以导出引用吗？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "需要看套餐。文档明确写明在 Starter 套餐下，Viewer 默认不可导出引用内容。"
+      },
+      {
+        "role": "user",
+        "content": "如果是 Business 呢？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "文档只明确把这项限制写在 Starter 套餐下，因此不能直接把该限制外推到 Business。Business 下至少没有被文档明确禁止。"
+      }
+    ],
+    "supporting_sections": [
+      "3.4 Viewer",
+      "3.5 权限例外"
+    ]
+  },
+  {
+    "id": "C003",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Business 的支持时段是什么？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "Business 的支持时段是工作日 9:00-21:00。"
+      },
+      {
+        "role": "user",
+        "content": "那如果 Sev-1 呢，多久首次响应？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "Business 套餐下 Sev-1 的首次响应时间是 30 分钟。"
+      }
+    ],
+    "supporting_sections": [
+      "13.3 首次响应时间",
+      "13.5 支持时段"
+    ]
+  },
+  {
+    "id": "C004",
+    "turns": [
+      {
+        "role": "user",
+        "content": "一个 4 worker 的 hybrid run 会怎么算并发？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "一个 4 worker 的 hybrid run 按 3 个并发槽位计算。"
+      },
+      {
+        "role": "user",
+        "content": "那如果已经有 18 个普通 run 在跑，会不会超？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "会超。18 个普通 run 加上 3 个槽位，总计 21，超过默认并发上限 20。"
+      }
+    ],
+    "supporting_sections": [
+      "4.1 工作区默认配额",
+      "11.2 并发控制"
+    ]
+  },
+  {
+    "id": "C005",
+    "turns": [
+      {
+        "role": "user",
+        "content": "如果审批超时会怎样？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "审批超过有效期未处理会自动变为 expired。"
+      },
+      {
+        "role": "user",
+        "content": "系统会自己重试吗？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "不会自动重试，需要用户重新发起请求。"
+      }
+    ],
+    "supporting_sections": [
+      "9.3 审批时限"
+    ]
+  },
+  {
+    "id": "C006",
+    "turns": [
+      {
+        "role": "user",
+        "content": "北衡金融适合拿来测试什么场景？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "适合测试大规模合规检索、私有模型接入以及多 MCP Server 场景。"
+      },
+      {
+        "role": "user",
+        "content": "为什么？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "因为它是 Enterprise 客户，有 32 个工作区、680 名成员、34 个 MCP Server，主要诉求包含合规检索和私有模型接入。"
+      }
+    ],
+    "supporting_sections": [
+      "17.2 北衡金融（Enterprise）"
+    ]
+  },
+  {
+    "id": "C007",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Working Memory 默认窗口多大？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "默认保留最近 40 条消息窗口。"
+      },
+      {
+        "role": "user",
+        "content": "一直都是 40 吗？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "不是。自 2026-02-01 起，默认窗口从 30 条调整为 40 条。"
+      }
+    ],
+    "supporting_sections": [
+      "7.1 Working Memory",
+      "14.4 历史版本说明"
+    ]
+  },
+  {
+    "id": "C008",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Owner 能把审批关掉吗？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "不能。Owner 不能取消高风险操作的审批机制。"
+      },
+      {
+        "role": "user",
+        "content": "那它能做什么？"
+      },
+      {
+        "role": "assistant_expected",
+        "content": "Owner 可以成为审批人之一，并且在启用双人审批时承担高风险审批角色，但不能绕过或关闭审批机制本身。"
+      }
+    ],
+    "supporting_sections": [
+      "3.1 Owner",
+      "3.5 权限例外",
+      "9.4 审批人与越权规则"
+    ]
+  }
+]

@@ -1,0 +1,933 @@
+[
+  {
+    "id": "Q001",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "Atlas 平台的五个一级模块分别是什么？",
+    "answer": "五个一级模块分别是 Knowledge Hub、Agent Studio、Memory Center、MCP Hub 和 Ops Console。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "1. 平台概览"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q002",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "Starter 套餐每个工作区最多可以连接多少个 MCP Server？",
+    "answer": "Starter 套餐每个工作区最多可以连接 2 个 MCP Server。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "2.1 Starter",
+      "2.4 计费补充规则",
+      "14.4 历史版本说明"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q003",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "Business 套餐的单文件大小上限是多少？",
+    "answer": "Business 套餐的单文件大小上限是 200 MB。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "2.2 Business"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q004",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "Enterprise 套餐默认保存最近多少天的运行日志？",
+    "answer": "Enterprise 套餐默认保存最近 365 天的运行日志。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "2.3 Enterprise",
+      "10.3 运行日志保留"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q005",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "Viewer 默认是否可以上传文档？",
+    "answer": "不可以，Viewer 不能上传文档。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "3.4 Viewer"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q006",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "文档接入流程的第 7 步是什么？",
+    "answer": "第 7 步是 contextualization。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "5.2 入库流程"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q007",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "默认 child chunk 的 token 范围是多少？",
+    "answer": "默认 child chunk 的范围是 250~350 tokens。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "6.1 默认切分策略"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q008",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "Working Memory 默认保留最近多少条消息窗口？",
+    "answer": "Working Memory 默认保留最近 40 条消息窗口。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "7.1 Working Memory",
+      "14.4 历史版本说明"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q009",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "MCP 工具的 high risk 默认是否需要审批？",
+    "answer": "需要，所有套餐下 high risk 都必须审批。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "8.3 默认审批规则"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q010",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "Starter 套餐的 Chat API 速率限制是多少？",
+    "answer": "Starter 套餐的 Chat API 速率限制是 60 次/分钟。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "11.1 API 限制"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q011",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "Sev-1 故障在 Enterprise 套餐下的首次响应时间是多少？",
+    "answer": "Enterprise 套餐下 Sev-1 的首次响应时间是 15 分钟。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "13.3 首次响应时间"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q012",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "Patch 版本通常在哪一天发布？",
+    "answer": "Patch 版本通常每周三发布。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "14.2 发布时间"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q013",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "普通删除后的文档会在回收站保留多少天？",
+    "answer": "普通删除后的文档会先进入 7 天回收站。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "4.3 资源清理",
+      "15.4 数据删除"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q014",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "标准知识问答场景下推荐的 Citation Precision 验收阈值是多少？",
+    "answer": "推荐的 Citation Precision 验收阈值是 0.90。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "16.3 验收建议阈值"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q015",
+    "category": "single_hop",
+    "difficulty": "easy",
+    "question": "岭南研究院使用的是什么套餐？",
+    "answer": "岭南研究院使用的是 Starter 套餐。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "17.3 岭南研究院（Starter）"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q016",
+    "category": "multi_hop",
+    "difficulty": "medium",
+    "question": "如果一个 Starter 工作区中的 Viewer 想导出引用内容，默认是否允许？请说明原因。",
+    "answer": "默认不允许。因为 Viewer 本身只有问答和查看共享内容的权限，而且文档明确写明在 Starter 套餐下 Viewer 默认不可导出引用内容。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "3.4 Viewer",
+      "3.5 权限例外"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q017",
+    "category": "multi_hop",
+    "difficulty": "medium",
+    "question": "Owner 能否直接绕过 high risk 工具的审批机制？",
+    "answer": "不能。文档说明即使是 Owner，也不能绕过高风险外部写操作的审批；Owner 只能作为审批人之一，不能取消审批机制本身。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "3.1 Owner",
+      "3.5 权限例外"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q018",
+    "category": "multi_hop",
+    "difficulty": "medium",
+    "question": "Business 套餐中，Viewer 能否使用问答功能并导出引用？",
+    "answer": "可以使用问答功能；是否能导出引用不受 Starter 那条限制约束，因此默认限制只明确写在 Starter 套餐下的 Viewer，不适用于 Business。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "3.4 Viewer",
+      "3.5 权限例外"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q019",
+    "category": "multi_hop",
+    "difficulty": "medium",
+    "question": "如果某工作区启用了双人审批，那么 high risk 操作至少需要什么审批条件？",
+    "answer": "至少需要 2 名审批人，其中 1 名必须是 Owner。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "9.4 审批人与越权规则"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q020",
+    "category": "multi_hop",
+    "difficulty": "medium",
+    "question": "一个 4 worker 的 hybrid run 在并发控制中按多少个并发槽位计算？",
+    "answer": "按 3 个并发槽位计算。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "11.2 并发控制"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q021",
+    "category": "multi_hop",
+    "difficulty": "medium",
+    "question": "如果运行日志已经转入冷存储，哪些信息仍然保留可查？",
+    "answer": "仍保留 run 摘要、耗时、token 使用和引用信息；但不能直接查看完整 step payload。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "4.3 资源清理",
+      "10.4 冷存储规则"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q022",
+    "category": "multi_hop",
+    "difficulty": "medium",
+    "question": "文档内容哈希完全一致时，系统会如何处理上传额度和文档主记录？",
+    "answer": "不会重复计入上传额度；系统默认不创建新的逻辑文档主记录，只创建版本引用事件。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "2.4 计费补充规则",
+      "5.4 去重规则"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q023",
+    "category": "multi_hop",
+    "difficulty": "medium",
+    "question": "Business 套餐默认能保留 180 天运行日志。如果客户还购买审计延保包，合计可多保留多久？",
+    "answer": "审计延保包会额外增加 180 天日志保留，因此在默认 180 天基础上可延长到 360 天。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "2.2 Business",
+      "12.2 附加资源包"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q024",
+    "category": "multi_hop",
+    "difficulty": "medium",
+    "question": "Enterprise 套餐是否同时支持 Dedicated Cloud 和 On-Prem？",
+    "answer": "是，同时支持 Dedicated Cloud 和 On-Prem。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "1. 平台概览",
+      "2.3 Enterprise"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q025",
+    "category": "multi_hop",
+    "difficulty": "medium",
+    "question": "如果问题来自多轮对话中的追问，检索阶段会额外利用什么信息？",
+    "answer": "会利用最近一轮用户消息和 thread summary 参与 query rewrite。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "6.5 重排序策略"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q026",
+    "category": "calculation",
+    "difficulty": "medium",
+    "question": "Starter 套餐 3 年年付，不考虑教育优惠时，总价是多少？",
+    "answer": "Starter 年付价格为每年 18,000 元，3 年为 54,000 元；按 3 年及以上可打 9 折，最终总价是 48,600 元。",
+    "answer_type": "numeric",
+    "supporting_sections": [
+      "12.1 年付价格",
+      "12.3 折扣规则"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q027",
+    "category": "calculation",
+    "difficulty": "medium",
+    "question": "Business 套餐购买 2 个文档包和 1 个对话包，需要额外支付多少钱？",
+    "answer": "2 个文档包共 16,000 元，1 个对话包 12,000 元，合计 28,000 元。",
+    "answer_type": "numeric",
+    "supporting_sections": [
+      "12.2 附加资源包"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q028",
+    "category": "calculation",
+    "difficulty": "medium",
+    "question": "Business 套餐下，一个工作区如果同时有 18 个普通 run 和 1 个 4 worker 的 hybrid run，是否超过默认并发上限？",
+    "answer": "会超过。18 个普通 run 占 18 个槽位，1 个 4 worker 的 hybrid run 按 3 个槽位计算，总计 21 个槽位，超过单工作区默认并发上限 20。",
+    "answer_type": "numeric",
+    "supporting_sections": [
+      "4.1 工作区默认配额",
+      "11.2 并发控制"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q029",
+    "category": "calculation",
+    "difficulty": "medium",
+    "question": "星舟制造日均对话量 4,500 次，按 30 天估算月对话量约多少？是否超过 Business 套餐每月默认对话额度？",
+    "answer": "约 135,000 次，不超过 Business 套餐每月 500,000 次的默认额度。",
+    "answer_type": "numeric",
+    "supporting_sections": [
+      "2.2 Business",
+      "17.1 星舟制造（Business）"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q030",
+    "category": "calculation",
+    "difficulty": "medium",
+    "question": "北衡金融如果购买 10 个文档包和 5 个对话包，额外费用合计是多少？",
+    "answer": "10 个文档包是 80,000 元，5 个对话包是 60,000 元，合计 140,000 元。",
+    "answer_type": "numeric",
+    "supporting_sections": [
+      "12.2 附加资源包"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q031",
+    "category": "calculation",
+    "difficulty": "medium",
+    "question": "Starter 套餐每个工作区最多 20 名成员。如果一个 Starter 客户开满 3 个工作区且每个都满员，理论上最多可容纳多少成员席位？",
+    "answer": "最多可容纳 60 个成员席位。",
+    "answer_type": "numeric",
+    "supporting_sections": [
+      "2.1 Starter"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q032",
+    "category": "calculation",
+    "difficulty": "hard",
+    "question": "如果 Enterprise 客户同时开启严格审计模式，且运行日志先按套餐默认保留 365 天，再将冷存储中的 step payload 保留 365 天，那么从运行发生到 step payload 最晚仍可在冷存储中保留多久？",
+    "answer": "文档没有说明‘默认热存储 365 天后再额外加 365 天’，只说明严格审计模式下 step payload 的冷存储保留期从默认 180 天提升到 365 天，因此不能据此简单相加出 730 天。",
+    "answer_type": "insufficient",
+    "supporting_sections": [
+      "10.3 运行日志保留",
+      "10.4 冷存储规则"
+    ],
+    "notes": "这是一个故意设置的边界题，正确答案应说明信息不足，不能擅自相加。"
+  },
+  {
+    "id": "Q033",
+    "category": "temporal",
+    "difficulty": "medium",
+    "question": "旧销售资料中 Starter 套餐的 MCP 上限是多少？当前有效规则又是多少？",
+    "answer": "旧销售资料中 Starter 套餐的 MCP 上限是 1 个；自 2026-02-01 起，当前有效规则是 2 个。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "2.4 计费补充规则",
+      "14.4 历史版本说明"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q034",
+    "category": "temporal",
+    "difficulty": "medium",
+    "question": "Working Memory 窗口在 2026-02-01 做了什么调整？",
+    "answer": "自 2026-02-01 起，Working Memory 窗口从 30 条消息调整为 40 条。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "14.4 历史版本说明"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q035",
+    "category": "temporal",
+    "difficulty": "medium",
+    "question": "如果有人引用了 2025-11-01 的 Starter MCP 上限来回答今天的问题，为什么会错？",
+    "answer": "因为那是旧版规则。自 2026-02-01 起，Starter 套餐的 MCP 上限已经从 1 个提升到 2 个，应以新版规则为准。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "2.4 计费补充规则",
+      "14.4 历史版本说明"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q036",
+    "category": "comparison",
+    "difficulty": "medium",
+    "question": "Starter、Business、Enterprise 三个套餐中，哪个默认日志保留时间最长？",
+    "answer": "Enterprise 最长，默认保存最近 365 天运行日志。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "2.1 Starter",
+      "2.2 Business",
+      "2.3 Enterprise"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q037",
+    "category": "comparison",
+    "difficulty": "medium",
+    "question": "Business 和 Enterprise 在支持时段上有什么差异？",
+    "answer": "Business 的支持时段是工作日 9:00-21:00；Enterprise 是 7×24 值守。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "13.5 支持时段"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q038",
+    "category": "comparison",
+    "difficulty": "medium",
+    "question": "谁的文档规模更大：星舟制造还是北衡金融？",
+    "answer": "北衡金融更大。北衡金融文档总数为 310,000，星舟制造为 52,000。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "17.1 星舟制造（Business）",
+      "17.2 北衡金融（Enterprise）"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q039",
+    "category": "comparison",
+    "difficulty": "medium",
+    "question": "Starter 和 Business 的 Upload API 速率限制差多少？",
+    "answer": "Starter 是 10 次/分钟，Business 是 30 次/分钟，相差 20 次/分钟。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "11.1 API 限制"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q040",
+    "category": "comparison",
+    "difficulty": "medium",
+    "question": "Owner 和 Admin 在权限上最关键的一个差异是什么？",
+    "answer": "Owner 可以删除工作区、转移所有权、管理计费与套餐；Admin 不能转移所有权，也不能查看计费合同附件。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "3.1 Owner",
+      "3.2 Admin"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q041",
+    "category": "policy",
+    "difficulty": "easy",
+    "question": "Starter 套餐支持私有化部署吗？",
+    "answer": "不支持，Starter 不支持私有化部署。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "2.1 Starter"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q042",
+    "category": "policy",
+    "difficulty": "easy",
+    "question": "强制删除文档是否会删除审计日志？",
+    "answer": "如果工作区启用了严格审计模式，强制删除不会删除已有审计日志，只会对敏感内容做脱敏保留。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "15.4 数据删除"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q043",
+    "category": "policy",
+    "difficulty": "easy",
+    "question": "普通对话能否自动写入 procedural memory？",
+    "answer": "不能。系统级规则不会从普通对话中自动写入 procedural memory，必须经过审核或模板发布。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "7.5 记忆写入规则"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q044",
+    "category": "policy",
+    "difficulty": "easy",
+    "question": "扫描件图片能否直接作为知识库主文档入库？",
+    "answer": "不能，当前暂不支持扫描件图片直接 OCR 入库。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "5.1 支持格式"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q045",
+    "category": "policy",
+    "difficulty": "easy",
+    "question": "表格抽取失败后会怎样处理？",
+    "answer": "会降级为文本块。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "5.5 表格处理"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q046",
+    "category": "policy",
+    "difficulty": "medium",
+    "question": "Owner 能否查看计费合同附件？Admin 能否查看？",
+    "answer": "Owner 可以管理计费与套餐，因此可以涉及计费管理；Admin 明确写明不可查看计费合同附件。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "3.1 Owner",
+      "3.2 Admin"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q047",
+    "category": "policy",
+    "difficulty": "medium",
+    "question": "Viewer 是否可以调用被标记为 high risk 的工具？",
+    "answer": "不可以，Viewer 不可调用被标记为 high risk 的工具。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "3.4 Viewer"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q048",
+    "category": "policy",
+    "difficulty": "medium",
+    "question": "如果高风险工具参数尚未真正执行，是否还需要审计记录？",
+    "answer": "需要。文档写明高风险工具即使参数未真正执行，也要留下审批审计记录。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "8.5 工具调用约束"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q049",
+    "category": "policy",
+    "difficulty": "medium",
+    "question": "Owner 是否可以关闭审批机制本身？",
+    "answer": "不可以。Owner 只能成为审批人之一，不能取消审批机制本身。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "3.5 权限例外"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q050",
+    "category": "policy",
+    "difficulty": "medium",
+    "question": "如果审批超时，会发生什么？",
+    "answer": "超过有效期未处理的审批会自动变为 expired，而且不会自动重试，需要用户重新发起请求。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "9.3 审批时限"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q051",
+    "category": "rag_specific",
+    "difficulty": "medium",
+    "question": "默认 dense topK 和 lexical topK 分别是多少？",
+    "answer": "默认 dense topK = 20，lexical topK = 20。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "6.4 检索策略"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q052",
+    "category": "rag_specific",
+    "difficulty": "medium",
+    "question": "默认 rerank 后最终证据保留几条？",
+    "answer": "默认 rerank 后最终证据保留 6~8 条。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "6.4 检索策略",
+      "14.4 历史版本说明"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q053",
+    "category": "rag_specific",
+    "difficulty": "medium",
+    "question": "child chunk 在 embedding 前会补充哪些信息？",
+    "answer": "会补充文档标题、章节路径、邻近主题摘要和关键实体标签。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "6.3 Contextualization 规则"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q054",
+    "category": "rag_specific",
+    "difficulty": "hard",
+    "question": "如果问题包含明确年份、版本号、价格或阈值，重排序时会如何调整？",
+    "answer": "时间或数值匹配权重会上调。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "6.5 重排序策略"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q055",
+    "category": "rag_specific",
+    "difficulty": "hard",
+    "question": "如果是‘谁可以’或‘是否允许’类问题，重排序时会优先关注什么？",
+    "answer": "会优先上调标题命中和规则型段落的权重。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "6.5 重排序策略"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q056",
+    "category": "sla",
+    "difficulty": "easy",
+    "question": "Cloud SaaS 的可用性目标是多少？",
+    "answer": "Cloud SaaS 的可用性目标是 99.9%。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "13.1 可用性目标"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q057",
+    "category": "sla",
+    "difficulty": "easy",
+    "question": "On-Prem 是否承诺平台整体可用性？",
+    "answer": "不承诺平台整体可用性，只承诺软件缺陷修复支持。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "13.1 可用性目标"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q058",
+    "category": "sla",
+    "difficulty": "medium",
+    "question": "Business 套餐下 Sev-2 的首次响应时间和修复目标分别是什么？",
+    "answer": "首次响应时间是 2 小时，24 小时内给出缓解方案。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "13.3 首次响应时间",
+      "13.4 修复目标"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q059",
+    "category": "sla",
+    "difficulty": "medium",
+    "question": "Enterprise 套餐下 Sev-3 的首次响应时间是多少？",
+    "answer": "Enterprise 套餐下 Sev-3 的首次响应时间是 4 小时。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "13.3 首次响应时间"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q060",
+    "category": "sla",
+    "difficulty": "medium",
+    "question": "Starter 套餐是否提供 7×24 值守？",
+    "answer": "不提供。Starter 仅在工作日 9:00-18:00 提供支持。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "13.5 支持时段"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q061",
+    "category": "scenario",
+    "difficulty": "medium",
+    "question": "如果一个客户有 32 个工作区、680 名成员、34 个 MCP Server，并且需要私有模型接入，它最可能是哪类客户案例？",
+    "answer": "最可能是北衡金融（Enterprise）。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "17.2 北衡金融（Enterprise）"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q062",
+    "category": "scenario",
+    "difficulty": "medium",
+    "question": "哪个客户案例最适合用来验证多 MCP Server、私有模型接入和大规模合规检索场景？",
+    "answer": "北衡金融最适合，因为它是 Enterprise 客户，拥有 34 个 MCP Server，并且主要诉求包括合规检索和私有模型接入。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "17.2 北衡金融（Enterprise）"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q063",
+    "category": "scenario",
+    "difficulty": "medium",
+    "question": "如果一个客户主要做科研资料问答、知识归档和周报辅助，而且只有 2 个工作区、14 名成员，它最可能是谁？",
+    "answer": "最可能是岭南研究院（Starter）。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "17.3 岭南研究院（Starter）"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q064",
+    "category": "scenario",
+    "difficulty": "medium",
+    "question": "星舟制造的主要诉求是什么？",
+    "answer": "星舟制造的主要诉求是制度问答、售后流程检索和工单协查。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "17.1 星舟制造（Business）"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q065",
+    "category": "scenario",
+    "difficulty": "medium",
+    "question": "从文档规模和日均对话量看，北衡金融和星舟制造相比，哪一个更接近高压生产场景？",
+    "answer": "北衡金融更接近高压生产场景，因为它有 310,000 份文档和日均 22,000 次对话，明显高于星舟制造的 52,000 份文档和 4,500 次对话。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "17.1 星舟制造（Business）",
+      "17.2 北衡金融（Enterprise）"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q066",
+    "category": "insufficient",
+    "difficulty": "hard",
+    "question": "Business 套餐每月 500,000 次对话额度，折算到每天是多少次？",
+    "answer": "文档没有规定按多少天折算月额度；如果做粗略估算可以按 30 天约为 16,667 次/天，但这不是文档明示的正式规则。",
+    "answer_type": "insufficient",
+    "supporting_sections": [
+      "2.2 Business"
+    ],
+    "notes": "应区分估算值和文档明示规则。"
+  },
+  {
+    "id": "Q067",
+    "category": "insufficient",
+    "difficulty": "hard",
+    "question": "Enterprise 套餐成员数上限具体是多少人？",
+    "answer": "文档没有给出固定人数，只说成员数按合同约定。",
+    "answer_type": "insufficient",
+    "supporting_sections": [
+      "2.3 Enterprise"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q068",
+    "category": "insufficient",
+    "difficulty": "hard",
+    "question": "如果一个 Enterprise 工作区连接了 100 个 MCP Server，系统一定会拒绝吗？",
+    "answer": "不一定。文档说 Enterprise 没有硬性上限，只是建议单工作区不超过 80 个，因此 100 个不一定被系统拒绝，但可能不被建议。",
+    "answer_type": "insufficient",
+    "supporting_sections": [
+      "2.3 Enterprise",
+      "8.4 MCP 数量建议"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q069",
+    "category": "insufficient",
+    "difficulty": "hard",
+    "question": "严格审计模式下 step payload 一定会热存储多少天后再转冷存储？",
+    "answer": "文档没有给出热存储时长，只说明转冷后以及严格审计模式下冷存储保留期的变化，无法得出固定热存储天数。",
+    "answer_type": "insufficient",
+    "supporting_sections": [
+      "10.4 冷存储规则"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q070",
+    "category": "insufficient",
+    "difficulty": "hard",
+    "question": "文档是否说明了 Starter 套餐的 Search API 是否支持按 IP 进一步限流？",
+    "answer": "没有说明。文档只给出了按工作区统计的 API 速率限制，没有写按 IP 的额外限流策略。",
+    "answer_type": "insufficient",
+    "supporting_sections": [
+      "11.1 API 限制"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q071",
+    "category": "follow_up_ready",
+    "difficulty": "medium",
+    "question": "如果上一轮已经在讨论 Starter 套餐，这一轮只问‘那它现在能连几个 MCP？’，标准答案应该是多少？",
+    "answer": "如果“它”指 Starter 套餐，那么标准答案是 2 个 MCP Server。",
+    "answer_type": "contextual",
+    "supporting_sections": [
+      "2.1 Starter",
+      "2.4 计费补充规则"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q072",
+    "category": "follow_up_ready",
+    "difficulty": "medium",
+    "question": "如果上一轮刚提到北衡金融，这一轮问‘它的主要诉求里包含私有模型接入吗？’，应该怎么回答？",
+    "answer": "包含。北衡金融的主要诉求明确写有私有模型接入。",
+    "answer_type": "contextual",
+    "supporting_sections": [
+      "17.2 北衡金融（Enterprise）"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q073",
+    "category": "citation",
+    "difficulty": "medium",
+    "question": "如果回答‘Starter 套餐可连接 2 个 MCP Server’，最合适引用哪些章节？",
+    "answer": "最合适引用 2.1 Starter；如果需要处理版本变更争议，还应补充 2.4 计费补充规则或 14.4 历史版本说明。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "2.1 Starter",
+      "2.4 计费补充规则",
+      "14.4 历史版本说明"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q074",
+    "category": "citation",
+    "difficulty": "medium",
+    "question": "如果回答‘高风险工具必须审批’，至少应该引用哪个章节？",
+    "answer": "至少应引用 8.3 默认审批规则；如果要补充审批状态与时限，也可引用第 9 章。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "8.3 默认审批规则",
+      "9. 审批与中断规则"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q075",
+    "category": "citation",
+    "difficulty": "medium",
+    "question": "如果回答‘Viewer 不可调用 high risk 工具’，最直接的证据章节是哪一处？",
+    "answer": "最直接的证据章节是 3.4 Viewer。",
+    "answer_type": "fact",
+    "supporting_sections": [
+      "3.4 Viewer"
+    ],
+    "notes": ""
+  }
+]
